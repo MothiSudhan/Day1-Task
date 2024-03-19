@@ -1,0 +1,15 @@
+DIFFERENCE BETWEEN HTTP/1.1 VS HTTP/2
+
+HTTP stands for hypertext transfer protocol.
+Developed by Timothy Berners-Lee in 1989.
+It is the foundation of the World Wide Web(WWW)and is used by browsers to load web pages.
+HTTP is an application protocol that exchanges information between a client computer and a local/remote web server. 
+HTTP is the method, computers and servers use to request and send information.
+      i.e.,A client sends a text-based request to a server by calling a method like (GET) or (POST). In response, the server sends a resource/information like an HTML page back to the client.
+Throught several stages of development HTTP/1.1 was created in 1997.
+The  HTTP/2 is was created in 2015, which is much more faster and efficient than the HTTP/1.1.
+HTTP/1.1 transfers all the information in the plain text message form, and the information related to the header file is repeated in every request so there is a open connection between server and client and this leads to several requests and responses which are merged in a single connection. which makes the TCP connection blocking all request until all the response does not recieve all the information related to the header file for every repeated request. 
+HTTP/2 works on a binary protocol instead of text format.It uses multiplexing so one TCP connection is required for multiple requests.
+HTTP/2 uses techniques such as compression, multiplexing, and prioritization to reduce the web page load latency.
+HTTP/3 is the next proposed version of the HTTP protocol. HTTP/3 does not have wide adoption on the web yet, but it is growing in usage.
+The key difference between HTTP/3 and previous versions of the protocol is that HTTP/3 runs over QUIC instead of TCP. QUIC is a faster and more secure transport layer protocol that is designed for the needs of the modern Internet.
